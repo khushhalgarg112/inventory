@@ -1,0 +1,53 @@
+✅ VERIFIED - Ready for Vercel Deployment
+==========================================
+
+STEP 1: Deploy to Vercel
+-------------------------
+1. Push code to GitHub (or connect your local folder)
+2. Go to https://vercel.com
+3. Click "Import Project"
+4. Select your repository
+5. Click "Deploy" (no build config needed)
+
+STEP 2: Add Environment Variables in Vercel
+--------------------------------------------
+After deployment, go to Project Settings > Environment Variables:
+
+Required:
+- TELEGRAM_BOT_TOKEN = <your_bot_token_from_@BotFather>
+- TELEGRAM_CHAT_ID = <your_chat_id>
+
+Optional (for security):
+- CRON_SECRET = <any_random_string>
+
+Then click "Redeploy" to apply changes.
+
+STEP 3: Setup External Cron (to run every 10 seconds)
+------------------------------------------------------
+Go to https://cron-job.org (FREE):
+
+1. Create free account
+2. Click "Create Cron Job"
+3. Settings:
+   - Title: Croma Stock Checker
+   - URL: https://your-app.vercel.app/api/cron
+   - Schedule: */10 * * * * * (every 10 seconds)
+   
+   If using CRON_SECRET, add header:
+   - Name: Authorization
+   - Value: Bearer your_cron_secret
+
+4. Click "Create"
+
+DONE! 
+-----
+Your stock checker will now run every 10 seconds.
+You'll get Telegram notifications when stock is found.
+
+Test URL: https://your-app.vercel.app/api/test
+Cron URL: https://your-app.vercel.app/api/cron
+
+Configure Products:
+- Edit lib/config.ts to add/remove products to track
+- Redeploy after changes
+
