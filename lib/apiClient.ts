@@ -57,7 +57,7 @@ export const cromaCustomRequest = async ({
   code: string;
   axios: any;
   retryCount?: number;
-}) => {
+}): Promise<any> => {
   const pincodeStr = String(pincode);
   const maxRetries = 2;
 
@@ -165,7 +165,7 @@ export const samsungCustomRequest = async ({
   pincode: string;
   code: string;
   axios: any;
-}) => {
+}): Promise<any> => {
   try {
     const url = "https://www.samsung.com/in/api/v4/configurator/serviceability";
     const res = await axios.get(url, {
@@ -208,7 +208,7 @@ export const flipkartCustomRequest = async ({
   pincode: string;
   code: string;
   axios: any;
-}) => {
+}): Promise<any> => {
   try {
     const proxyUrl =
       process.env.FLIPKART_PROXY_URL ||
@@ -242,7 +242,7 @@ export const relianceDigitalCustomRequest = async ({
   pincode: string;
   code: string;
   axios: any;
-}) => {
+}): Promise<any> => {
   try {
     const url =
       "https://www.reliancedigital.in/ext/raven-api/inventory/multi/articles-v2";
@@ -284,7 +284,7 @@ export const iqooCustomRequest = async ({
 }: {
   code: string;
   axios: any;
-}) => {
+}): Promise<any> => {
   try {
     const url = `https://mshop.iqoo.com/in/api/product/activityInfo/all/${code}`;
     const res = await axios.get(url, {
@@ -311,7 +311,7 @@ export const vivoCustomRequest = async ({
 }: {
   code: string;
   axios: any;
-}) => {
+}): Promise<any> => {
   try {
     const url = `https://mshop.vivo.com/in/api/product/activityInfo/all/${code}`;
     const res = await axios.get(url, {
