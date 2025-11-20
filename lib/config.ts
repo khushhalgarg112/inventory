@@ -55,11 +55,6 @@ export const PLATFORMS: Platform[] = [
         name: "Oppo K13X 5G 4GB RAM 128GB Sunset Peach",
         url: "https://www.croma.com/oppo-k13x-5g-4gb-ram-128gb-sunset-peach-/p/316303",
       },
-      {
-        id: "314881",
-        name: "Google Pixel 9a 5G (8GB RAM, 256GB, Obsidian)",
-        url: "https://www.croma.com/pixel-9a-/p/314881",
-      },
     ],
     headers: {
       accept: "application/json, text/plain, */*",
