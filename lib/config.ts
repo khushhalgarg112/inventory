@@ -23,7 +23,7 @@ export const PLATFORMS: Platform[] = [
     apiUrl: "https://api.croma.com/inventory/oms/v2/tms/details-pwa/",
     method: "POST",
     apiKey: null,
-    pincodes: ["122001"],
+    pincodes: ["122001", "110005", "393001"],
     products: [
       {
         id: "317398",
