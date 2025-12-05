@@ -50,21 +50,21 @@ export const PLATFORMS: Platform[] = [
       //   name: "Apple iPhone 17 256GB Lavender",
       //   url: "https://www.croma.com/apple-iphone-17-256gb-lavender-/p/317401",
       // },
-      {
-        id: "312574",
-        name: "Vivo Y29 5G 4GB RAM 128GB Glacier Blue",
-        url: "https://www.croma.com/vivo-y29-5g-4gb-ram-128gb-glacier-blue-/p/312574",
-      },
-      {
-        id: "312575",
-        name: "Vivo Y29 5G 4GB RAM 128GB Diamond Black",
-        url: "https://www.croma.com/vivo-y29-5g-4gb-ram-128gb-diamond-black-/p/312575",
-      },
-      {
-        id: "312577",
-        url: "https://www.croma.com/vivo-y29-5g-4gb-ram-128gb-titanium-gold-/p/312577",
-        name: "Vivo Y29 5G 4GB RAM 128GB Titanium Gold",
-      },
+      // {
+      //   id: "312574",
+      //   name: "Vivo Y29 5G 4GB RAM 128GB Glacier Blue",
+      //   url: "https://www.croma.com/vivo-y29-5g-4gb-ram-128gb-glacier-blue-/p/312574",
+      // },
+      // {
+      //   id: "312575",
+      //   name: "Vivo Y29 5G 4GB RAM 128GB Diamond Black",
+      //   url: "https://www.croma.com/vivo-y29-5g-4gb-ram-128gb-diamond-black-/p/312575",
+      // },
+      // {
+      //   id: "312577",
+      //   url: "https://www.croma.com/vivo-y29-5g-4gb-ram-128gb-titanium-gold-/p/312577",
+      //   name: "Vivo Y29 5G 4GB RAM 128GB Titanium Gold",
+      // },
       {
         id: "317534",
         url: "https://www.croma.com/vivo-t4r-5g-8gb-ram-128gb-twilight-blue-/p/317534",
