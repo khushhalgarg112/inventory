@@ -70,11 +70,11 @@ export const PLATFORMS: Platform[] = [
         url: "https://www.croma.com/vivo-t4r-5g-8gb-ram-128gb-twilight-blue-/p/317534",
         name: "Vivo T4r 8/128 twilight blue",
       },
-      {
-        id: "317627",
-        url: "https://www.croma.com/vivo-t4r-5g-8gb-ram-256gb-arctic-white-/p/317627",
-        name: "Vivo T4r 8/256 arctic white",
-      },
+      // {
+      //   id: "317627",
+      //   url: "https://www.croma.com/vivo-t4r-5g-8gb-ram-256gb-arctic-white-/p/317627",
+      //   name: "Vivo T4r 8/256 arctic white",
+      // },
       // {
       //   id: "316365",
       //   name: "vivo Y400 Pro 5G (8GB RAM, 256GB, Freestyle White )",
