@@ -8,19 +8,22 @@ const DEFAULT_TYPE = "ps";
 
 const baseHeaders = {
   accept: "*/*",
+  "accept-language": "en-US,en;q=0.8",
   "common-client-static-version": "101",
   "content-type": "application/json",
   "osmos-enabled": "true",
   origin: "https://www.bigbasket.com",
   priority: "u=1, i",
   referer: "https://www.bigbasket.com/",
-  "sec-ch-ua": '"Chromium";v="142", "Brave";v="142", "Not_A Brand";v="99"',
+  "sec-ch-ua": '"Brave";v="143", "Chromium";v="143", "Not A(Brand";v="24"',
   "sec-ch-ua-mobile": "?0",
   "sec-ch-ua-platform": '"Windows"',
   "sec-fetch-dest": "empty",
   "sec-fetch-mode": "cors",
   "sec-fetch-site": "same-origin",
   "sec-gpc": "1",
+  "user-agent":
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
   "x-channel": "BB-WEB",
   "x-entry-context": "bbnow",
   "x-entry-context-id": "10",
@@ -43,13 +46,13 @@ const buildHeaders = (): BigBasketHeaders | null => {
   const headers: BigBasketHeaders = {
     ...baseHeaders,
     "accept-language":
-      process.env.BIGBASKET_ACCEPT_LANGUAGE || "en-US,en;q=0.5",
+      process.env.BIGBASKET_ACCEPT_LANGUAGE || "en-US,en;q=0.8",
     "user-agent":
       process.env.BIGBASKET_USER_AGENT ||
-      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
     "x-tracker":
       process.env.BIGBASKET_TRACKER_ID ||
-      "4a7f9cba-6fac-404b-a174-ad84d36c9279",
+      "7b502128-5418-4ba3-8666-b565845d8067",
     Cookie: cookie,
   };
 
