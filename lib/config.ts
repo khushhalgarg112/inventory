@@ -66,31 +66,31 @@ export const PLATFORMS: Platform[] = [
     apiKey: null,
     pincodes: ["122001", "393001"],
     products: [
-      {
-        id: "317398",
-        name: "Apple iPhone 17 256GB White",
-        url: "https://www.croma.com/apple-iphone-17-256gb-white-/p/317398",
-      },
-      {
-        id: "317400",
-        name: "Apple iPhone 17 256GB Mist Blue",
-        url: "https://www.croma.com/apple-iphone-17-256gb-mist-blue-/p/317400",
-      },
-      {
-        id: "317396",
-        name: "Apple iPhone 17 256GB Black",
-        url: "https://www.croma.com/apple-iphone-17-256gb-black-/p/317396",
-      },
-      {
-        id: "317403",
-        name: "Apple iPhone 17 256GB Sage",
-        url: "https://www.croma.com/apple-iphone-17-256gb-sage-/p/317403",
-      },
-      {
-        id: "317401",
-        name: "Apple iPhone 17 256GB Lavender",
-        url: "https://www.croma.com/apple-iphone-17-256gb-lavender-/p/317401",
-      },
+      // {
+      //   id: "317398",
+      //   name: "Apple iPhone 17 256GB White",
+      //   url: "https://www.croma.com/apple-iphone-17-256gb-white-/p/317398",
+      // },
+      // {
+      //   id: "317400",
+      //   name: "Apple iPhone 17 256GB Mist Blue",
+      //   url: "https://www.croma.com/apple-iphone-17-256gb-mist-blue-/p/317400",
+      // },
+      // {
+      //   id: "317396",
+      //   name: "Apple iPhone 17 256GB Black",
+      //   url: "https://www.croma.com/apple-iphone-17-256gb-black-/p/317396",
+      // },
+      // {
+      //   id: "317403",
+      //   name: "Apple iPhone 17 256GB Sage",
+      //   url: "https://www.croma.com/apple-iphone-17-256gb-sage-/p/317403",
+      // },
+      // {
+      //   id: "317401",
+      //   name: "Apple iPhone 17 256GB Lavender",
+      //   url: "https://www.croma.com/apple-iphone-17-256gb-lavender-/p/317401",
+      // },
       // {
       //   id: "312574",
       //   name: "Vivo Y29 5G 4GB RAM 128GB Glacier Blue",
