@@ -106,11 +106,11 @@ export const PLATFORMS: Platform[] = [
       //   url: "https://www.croma.com/vivo-y29-5g-4gb-ram-128gb-titanium-gold-/p/312577",
       //   name: "Vivo Y29 5G 4GB RAM 128GB Titanium Gold",
       // },
-      {
-        id: "317534",
-        url: "https://www.croma.com/vivo-t4r-5g-8gb-ram-128gb-twilight-blue-/p/317534",
-        name: "Vivo T4r 8/128 twilight blue",
-      },
+      // {
+      //   id: "317534",
+      //   url: "https://www.croma.com/vivo-t4r-5g-8gb-ram-128gb-twilight-blue-/p/317534",
+      //   name: "Vivo T4r 8/128 twilight blue",
+      // },
       // {
       //   id: "317627",
       //   url: "https://www.croma.com/vivo-t4r-5g-8gb-ram-256gb-arctic-white-/p/317627",
@@ -126,11 +126,11 @@ export const PLATFORMS: Platform[] = [
       //   name: "vivo Y400 Pro 5G (8GB RAM, 256GB, Nebula Purple)",
       //   url: "https://www.croma.com/vivo-y400-pro-5g-8gb-ram-256gb-nebula-purple-/p/316359",
       // },
-      {
-        id: "312574",
-        name: "vivo Y29 5G (4GB RAM, 128GB, Glacier Blue)",
-        url: "https://www.croma.com/vivo-y29-5g-4gb-ram-128gb-glacier-blue-/p/312574",
-      },
+      // {
+      //   id: "312574",
+      //   name: "vivo Y29 5G (4GB RAM, 128GB, Glacier Blue)",
+      //   url: "https://www.croma.com/vivo-y29-5g-4gb-ram-128gb-glacier-blue-/p/312574",
+      // },
       // {
       //   id: "316358",
       //   name: "vivo Y400 Pro 5G (8GB RAM, 256GB, Fest Gold)",
