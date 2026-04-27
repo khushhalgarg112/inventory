@@ -161,6 +161,21 @@ export const PLATFORMS: Platform[] = [
       //   name: "vivo Y19s 5G (4GB RAM, 64GB, Majestic Green) | With Charger",
       //   url: "https://www.croma.com/vivo-y19s-5g-4gb-ram-64gb-majestic-green-with-charger/p/319526",
       // },
+       {
+        id: "314881",
+        name: "Pixel 9a 5G (8GB RAM, 256GB, Obsidian)",
+        url: "https://www.croma.com/google-pixel-9a-5g-8gb-ram-256gb-obsidian-/p/314881",
+      },
+      {
+        id: "314882",
+        name: "Pixel 9a 5G (8GB RAM, 256GB, porcelain)",
+        url: "https://www.croma.com/google-pixel-9a-5g-8gb-ram-256gb-porcelain-/p/314882",
+      },
+      {
+        id: "314883",
+        name: "Pixel 9a 5G (8GB RAM, 256GB, Iris)",
+        url: "https://www.croma.com/google-pixel-9a-5g-8gb-ram-256gb-iris-/p/314883",
+      },
       // {
       //   id :"319525",
       //   name: "vivo Y19s 5G (4GB RAM, 64GB, Titanium Silver) | With Charger",
