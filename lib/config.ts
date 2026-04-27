@@ -106,26 +106,66 @@ export const PLATFORMS: Platform[] = [
       //   url: "https://www.croma.com/vivo-y29-5g-4gb-ram-128gb-titanium-gold-/p/312577",
       //   name: "Vivo Y29 5G 4GB RAM 128GB Titanium Gold",
       // },
-    //  {
-    //     id: "317534",
-    //     url: "https://www.croma.com/vivo-t4r-5g-8gb-ram-128gb-twilight-blue-/p/317534",
-    //     name: "Vivo T4r 8/128 twilight blue",
-    //   },
-    //   {
-    //     id: "317627",
-    //     url: "https://www.croma.com/vivo-t4r-5g-8gb-ram-256gb-arctic-white-/p/317627",
-    //     name: "Vivo T4r 8/256 arctic white",
-    //   },
-    //   {
-    //     id: "317526",
-    //     url: "https://www.croma.com/vivo-t4r-5g-8gb-ram-128gb-arctic-white-/p/317526",
-    //     name: "Vivo T4r 8/128 artic white",
-    //   },
-    //   {
-    //     id: "317632",
-    //     url: "https://www.croma.com/vivo-t4r-5g-8gb-ram-256gb-twilight-blue-/p/317632",
-    //     name: "Vivo T4r 8/256 twilight blue",
-    //   },
+     {
+        id: "317534",
+        url: "https://www.croma.com/vivo-t4r-5g-8gb-ram-128gb-twilight-blue-/p/317534",
+        name: "Vivo T4r 8/128 twilight blue",
+      },
+      {
+        id: "317627",
+        url: "https://www.croma.com/vivo-t4r-5g-8gb-ram-256gb-arctic-white-/p/317627",
+        name: "Vivo T4r 8/256 arctic white",
+      },
+      {
+        id: "317526",
+        url: "https://www.croma.com/vivo-t4r-5g-8gb-ram-128gb-arctic-white-/p/317526",
+        name: "Vivo T4r 8/128 artic white",
+      },
+      {
+        id: "317632",
+        url: "https://www.croma.com/vivo-t4r-5g-8gb-ram-256gb-twilight-blue-/p/317632",
+        name: "Vivo T4r 8/256 twilight blue",
+      },
+     {
+        id: "315712",
+        url: "https://www.croma.com/vivo-t4-5g-8gb-ram-128gb-emerald-blaze-/p/315712",
+        name: "Vivo T4 8/128 emerald blaze",
+      },
+      {
+        id: "315715",
+        url: "https://www.croma.com/vivo-t4-5g-8gb-ram-128gb-phantom-grey-/p/315715",
+        name: "Vivo T4 8/128 phantom grey",
+      },
+      {
+        id: "315716",
+        url: "https://www.croma.com/vivo-t4-5g-8gb-ram-256gb-phantom-grey-/p/315716",
+        name: "Vivo T4 8/256 phantom grey",
+      },
+      {
+        id: "315713",
+        url: "https://www.croma.com/vivo-t4-5g-8gb-ram-256gb-emerald-blaze-/p/315713",
+        name: "Vivo T4 8/256 emerald blaze",
+      },
+     {
+        id: "321826",
+        url: "https://www.croma.com/nothing-phone-4a-5g-8gb-ram-128gb-black-/p/321826",
+        name: "Nothing Phone 4a 8/128 black",
+      },
+      {
+        id: "321827",
+        url: "https://www.croma.com/nothing-phone-4a-5g-8gb-ram-128gb-white-/p/321827",
+        name: "Nothing Phone 4a 8/128 white",
+      },
+      {
+        id: "321828",
+        url: "https://www.croma.com/nothing-phone-4a-5g-8gb-ram-256gb-blue-/p/321828",
+        name: "Nothing Phone 4a 8/256 blue",
+      },
+      {
+        id: "321829",
+        url: "https://www.croma.com/nothing-phone-4a-5g-8gb-ram-256gb-pink-/p/321829",
+        name: "Nothing Phone 4a 8/256 pink",
+      },
       // {
       //   id: "316365",
       //   name: "vivo Y400 Pro 5G (8GB RAM, 256GB, Freestyle White )",
@@ -146,21 +186,21 @@ export const PLATFORMS: Platform[] = [
       //   name: "vivo Y400 Pro 5G (8GB RAM, 256GB, Fest Gold)",
       //   url: "https://www.croma.com/vivo-y400-pro-5g-8gb-ram-256gb-fest-gold-/p/316358",
       // },
-      // {
-      //   id :"319528",
-      //   name: "vivo Y19s 5G (4GB RAM, 128GB, Titanium Silver) | With Charger",
-      //   url: "https://www.croma.com/vivo-y19s-5g-4gb-ram-128gb-titanium-silver-with-charger/p/319528",
-      // },
-      // {
-      //   id :"319530",
-      //   name: "vivo Y19s 5G (4GB RAM, 128GB, Majestic Green) | With Charger",
-      //   url: "https://www.croma.com/vivo-y19s-5g-4gb-ram-128gb-majestic-green-with-charger/p/319530"
-      // },
-      // {
-      //   id :"319526",
-      //   name: "vivo Y19s 5G (4GB RAM, 64GB, Majestic Green) | With Charger",
-      //   url: "https://www.croma.com/vivo-y19s-5g-4gb-ram-64gb-majestic-green-with-charger/p/319526",
-      // },
+      {
+        id :"319528",
+        name: "vivo Y19s 5G (4GB RAM, 128GB, Titanium Silver) | With Charger",
+        url: "https://www.croma.com/vivo-y19s-5g-4gb-ram-128gb-titanium-silver-with-charger/p/319528",
+      },
+      {
+        id :"319530",
+        name: "vivo Y19s 5G (4GB RAM, 128GB, Majestic Green) | With Charger",
+        url: "https://www.croma.com/vivo-y19s-5g-4gb-ram-128gb-majestic-green-with-charger/p/319530"
+      },
+      {
+        id :"319526",
+        name: "vivo Y19s 5G (4GB RAM, 64GB, Majestic Green) | With Charger",
+        url: "https://www.croma.com/vivo-y19s-5g-4gb-ram-64gb-majestic-green-with-charger/p/319526",
+      },
        {
         id: "314881",
         name: "Pixel 9a 5G (8GB RAM, 256GB, Obsidian)",
@@ -176,21 +216,21 @@ export const PLATFORMS: Platform[] = [
         name: "Pixel 9a 5G (8GB RAM, 256GB, Iris)",
         url: "https://www.croma.com/google-pixel-9a-5g-8gb-ram-256gb-iris-/p/314883",
       },
-      // {
-      //   id :"319525",
-      //   name: "vivo Y19s 5G (4GB RAM, 64GB, Titanium Silver) | With Charger",
-      //   url: "https://www.croma.com/vivo-y19s-5g-4gb-ram-64gb-titanium-silver-with-charger/p/319525",
-      // },
-      // {
-      //   id :"319527",
-      //   name: "vivo Y19s 5G (6GB RAM, 128GB, Titanium Silver) | With Charger",
-      //   url: "https://www.croma.com/vivo-y19s-5g-6gb-ram-128gb-titanium-silver-with-charger/p/319527",
-      // },
-      // {
-      //   id :"319529",
-      //   name: "vivo Y19s 5G (6GB RAM, 128GB, Majestic Green) | With Charger",
-      //   url: "https://www.croma.com/vivo-y19s-5g-6gb-ram-128gb-majestic-green-with-charger/p/319529",
-      // },
+      {
+        id :"319525",
+        name: "vivo Y19s 5G (4GB RAM, 64GB, Titanium Silver) | With Charger",
+        url: "https://www.croma.com/vivo-y19s-5g-4gb-ram-64gb-titanium-silver-with-charger/p/319525",
+      },
+      {
+        id :"319527",
+        name: "vivo Y19s 5G (6GB RAM, 128GB, Titanium Silver) | With Charger",
+        url: "https://www.croma.com/vivo-y19s-5g-6gb-ram-128gb-titanium-silver-with-charger/p/319527",
+      },
+      {
+        id :"319529",
+        name: "vivo Y19s 5G (6GB RAM, 128GB, Majestic Green) | With Charger",
+        url: "https://www.croma.com/vivo-y19s-5g-6gb-ram-128gb-majestic-green-with-charger/p/319529",
+      },
     ],
     headers: {
       accept: "application/json, text/plain, */*",
